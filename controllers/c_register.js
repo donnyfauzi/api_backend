@@ -1,5 +1,5 @@
 const bcrypt = require('bcryptjs')
-const { createUser, findUserByEmail } = require('../models/m_register')
+const { createUser, findUserByEmail } = require('../models/m_user')
 
 const registerUser = async (req, res) => {
     try {
