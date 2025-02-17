@@ -12,8 +12,8 @@ const protectedRoutes = require("./routes/protectedRoutes")
 
 app.use(
   cors({
-    origin: "http://localhost:3000", // React frontend
-    credentials: true, // Mengizinkan pengiriman cookie atau header Authorization
+    origin: "http://localhost:3000", //Ini URL untuk frontend
+    credentials: true,
   })
 );
 app.use(bodyPaser.json())
